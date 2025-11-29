@@ -44,5 +44,16 @@
     <p><strong>Version :</strong> 1.0.0</p>
     <p><strong>Date de déploiement :</strong> <%= new java.util.Date() %></p>
 </div>
+<!-- Ajouter cette section après la div .feature existante -->
+<div class="feature" style="border-left-color: #28a745;">
+    <h3>🆕 Nouvelle Fonctionnalité (new_feature) :</h3>
+    <p>Cette section a été ajoutée dans la branche new_feature pour démontrer
+        le processus de fusion (merge) dans le pipeline CI/CD.</p>
+    <ul>
+        <li>Amélioration de l'interface utilisateur</li>
+        <li>Nouvelles couleurs et styles</li>
+        <li>Meilleure expérience utilisateur</li>
+    </ul>
+</div>
 </body>
 </html>
